@@ -1,0 +1,128 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('STRIPES2.avif');
+      background-size: cover; /* Scales image to cover the element */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents tiling */
+    }
+      header {
+     
+      background-size: 100vw;
+      background-position: center;
+      
+      width: 100%;
+      max-width: 1200px; /* Limit max width for larger screens */
+      height: 250px; /* Increased height for better logo display */
+      display: flex;
+      justify-content: center;
+    }
+    header img {
+        
+      max-width: 100%;
+      height: auto;
+     
+    }
+    nav {
+  background-color:black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 15px;
+  width: 50%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Increased spacing between nav links */
+} 
+      
+nav a {
+  color: white;
+  
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em; /* Slightly larger font for readability */
+}
+
+nav a:hover {
+  color: red; /* or #ff0000 for a pure red */
+}
+
+.content {
+    background-color: white;
+    margin: 5px;
+  width: 54%;
+  height: auto;
+  max-width: 1200px;
+  border-radius: 5px;
+  text-align: center; /* Center text within content */
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 53%;
+    margin-top: 1px;
+    padding: 5px;
+    background-color:white; /* Light background for contrast */
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+.pic2{
+    width: 40vw;
+    border-radius: 3%;
+    margin-bottom: 5px;
+
+}
+.pic3{
+    width: 40vw;
+    border-radius: 3%;
+    margin-bottom: 5px;
+}
+.pic4{
+    width: 40vw;
+    border-radius: 3%;
+    margin-bottom: 5px;
+}
+.pic5{
+    width: 40vw;
+    border-radius: 3%;
+    margin-bottom: 5px;
+}
+.pic9{
+    width: 40vw;
+    border-radius: 3%;
+    margin-bottom: 5px;
+}
+footer{
+background-color: white;
+width: 53%;
+height: 25px;
+padding: 5px;
+margin: 5px;
+display: flex;
+justify-content: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  header {
+    height: 100px; /* Smaller header height for mobile */
+  }
+  header img {
+    max-width: 90%; /* Adjust logo size for smaller screens */
+  }
+  nav {
+    flex-direction: column; /* Stack nav links vertically on mobile */
+    gap: 5px;
+  }
+  .content {
+    padding: 10px;
+  }
+}
