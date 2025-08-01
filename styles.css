@@ -106,8 +106,10 @@ width: 90vw;
 height: 25px;
 padding: 5px;
 margin: 5px;
+margin-bottom: 10px;
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
 /* Responsive design for smaller screens */
