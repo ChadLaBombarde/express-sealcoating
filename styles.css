@@ -124,7 +124,7 @@ align-items: center;
   }
   nav {
     flex-direction: row; /* Stack nav links vertically on mobile */
-    gap: 5px;
+    gap: 10px;
   }
   .content {
     padding: 10px;
