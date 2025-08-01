@@ -121,7 +121,7 @@ align-items: center;
     max-width: 90%; /* Adjust logo size for smaller screens */
   }
   nav {
-    flex-direction: column; /* Stack nav links vertically on mobile */
+    flex-direction: row; /* Stack nav links vertically on mobile */
     gap: 5px;
   }
   .content {
