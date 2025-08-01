@@ -32,18 +32,19 @@
   background-color:black;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 15px;
+  padding: 5px;
   width: 90vw;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px; /* Increased spacing between nav links */
+  gap: 60px; /* Increased spacing between nav links */
 } 
       
 nav a {
   color: white;
   
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em; /* Slightly larger font for readability */
